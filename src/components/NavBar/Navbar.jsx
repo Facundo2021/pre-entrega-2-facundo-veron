@@ -9,10 +9,10 @@ const Navbar = () => {
 
         <nav>
             <ul>
-                <li><NavLink to={`/Categoria 2/`}>Gymano</NavLink></li>
-                <li><NavLink to={`/Categoria 2/`}>Nesdar</NavLink></li>
-                <li><NavLink to={`/Categoria 3/`}>Playera</NavLink></li>
-                <li><NavLink to={`/Categoria 3/`}>Montan</NavLink></li>
+                <li><NavLink to={`/Categoria/2/`}>Gymano</NavLink></li>
+                <li><NavLink to={`/Categoria/2/`}>Nesdar</NavLink></li>
+                <li><NavLink to={`/Categoria/3/`}>Playera</NavLink></li>
+                <li><NavLink to={`/Categoria/3/`}>Montan</NavLink></li>
             </ul>
         </nav>
 

@@ -6,11 +6,7 @@ const Contador = ({ stock, inicial }) => {
 
     useEffect( ()=> {
         console.log("Se ejecutó el useEffect!!");
-        /* if(contador === 5) {
-            document.getElementById("boton").style.color = "red";
-        } */
-        //Esto no es lo más recomendado en React. Porque estoy accediendo directamente al DOM. Y no se considera una buena práctica. 
-        //Mejor es usar el estado para cambiar el color del boton: 
+       
 
         if(contador > 5) {
             setColor("red");
